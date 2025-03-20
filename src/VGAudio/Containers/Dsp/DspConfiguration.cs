@@ -8,7 +8,7 @@ namespace VGAudio.Containers.Dsp
     /// </summary>
     public class DspConfiguration : Configuration
     {
-        private int _samplesPerInterleave = 0x3800;
+        private int _samplesPerInterleave = 0xE; // 0x3800;
         /// <summary>
         /// If <c>true</c>, recalculates the loop context when building the DSP.
         /// If <c>false</c>, reuses the loop context read from an imported DSP

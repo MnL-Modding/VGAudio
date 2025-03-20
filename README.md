@@ -1,4 +1,6 @@
 # VGAudio
+*This branch changes the DSP samples per interleave to `0xE` to be compatible with RSD (RedSpark) audio.*
+
 VGAudio is a library for encoding, decoding, and manipulating audio files and formats that are usually found in video games.
 
 The most recent release of the library can be found [on NuGet](https://www.nuget.org/packages/VGAudio/)
